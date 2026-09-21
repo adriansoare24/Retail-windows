@@ -1,0 +1,24 @@
+CUM GENEREZI EXE-UL CU GITHUB
+=============================
+
+1. Creeaza un repository nou pe GitHub, de exemplu:
+   retail-windows
+
+2. Incarca TOATE fisierele din acest folder in repository.
+   Important: pastreaza folderul:
+   .github/workflows/build-windows.yml
+
+3. GitHub -> Actions -> Build Retail Windows EXE.
+
+4. Apasa Run workflow daca workflow-ul nu a pornit automat.
+
+5. Cand apare verde "Success", intra in rularea respectiva.
+
+6. La Artifacts vei vedea:
+   RetailWindowsV2-Windows10
+
+7. Descarci arhiva artifact si in ea vei avea:
+   RetailWindowsV2.exe
+
+Nu este nevoie sa ai Python instalat pe PC-ul pe care vei rula EXE-ul.
+Casa de marcat nu este conectata in V2.
