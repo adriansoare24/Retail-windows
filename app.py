@@ -51,7 +51,7 @@ def init():
 class App(tk.Tk):
     def __init__(self):
         super().__init__()
-        self.title("Retail Windows V2")
+        super().title("Retail Windows V2")
         self.geometry("1280x760")
         self.minsize(1100,650)
         self.cart=[]
